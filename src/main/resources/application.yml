@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: chatsapp
+  datasource:
+    url: jdbc:postgresql://localhost:5432/db_chatsapp
+    username: chatsapp
+    password: chatsapp
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+server:
+  port: 9999
